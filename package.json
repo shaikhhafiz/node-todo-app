@@ -4,8 +4,9 @@
   "description": "Todo app backend service using express.js, mongodb",
   "main": "src/app/app.js",
   "scripts": {
-    "start": "node src/app/app.js",
-    "test": "npm run test"
+    "dev": "SET NODE_ENV=env/dev& node src/app/app.js",
+    "test": "SET NODE_ENV=env/test& node src/app/app.js",
+    "prod": "SET NODE_ENV=env/prod& node src/app/app.js"
   },
   "repository": {
     "type": "git",

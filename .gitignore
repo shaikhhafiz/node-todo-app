@@ -1,6 +1,9 @@
 node_modules
 package-lock.json
-.env
+
+env/dev/.env
+env/test/.env
+env/prod/.env
 
 # Intellij idea
 .idea
