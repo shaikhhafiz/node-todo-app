@@ -1,0 +1,26 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "Todo app backend service using express.js, mongodb",
+  "main": "src/app/app.js",
+  "scripts": {
+    "start": "node src/app/app.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaikhhafiz/node-todo-app.git"
+  },
+  "author": "Shaikh Hafiz Ahamed",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "4.17.1",
+    "mongoose": "5.13.4"
+  },
+  "bugs": {
+    "url": "https://github.com/shaikhhafiz/node-todo-app/issues"
+  },
+  "homepage": "https://github.com/shaikhhafiz/node-todo-app#readme"
+}
