@@ -1,6 +1,8 @@
 const dotenv = require('dotenv');
 
-dotenv.config({ path: `./${process.env.NODE_ENV}/.env` });
+const path = `./${process.env.NODE_ENV}/.env`;
+
+dotenv.config({ path: path });
 
 module.exports = {
   PORT: process.env.PORT,

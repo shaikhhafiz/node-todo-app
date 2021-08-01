@@ -4,10 +4,12 @@
   "description": "Todo app backend service using express.js, mongodb",
   "main": "src/app/app.js",
   "scripts": {
-    "dev": "SET NODE_ENV=env/dev& node src/app/app.js",
-    "prod": "SET NODE_ENV=env/prod& node src/app/app.js",
-    "test": "SET NODE_ENV=env/test& mocha src/test",
-    "test-single": "SET NODE_ENV=env/test& mocha"
+    "dev": "node run-env/dev.js",
+    "prod": "node run-env/prod.js",
+    "test:win": "SET NODE_ENV=env/test& mocha src/test",
+    "test:linux": "NODE_ENV=env/test mocha src/test",
+    "test-single:win": "SET NODE_ENV=env/test& mocha",
+    "test-single:linux": "NODE_ENV=env/test mocha"
   },
   "repository": {
     "type": "git",
